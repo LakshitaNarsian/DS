@@ -1,0 +1,15 @@
+import numpy as np
+import pandas as pd
+x = np.array([[120,3,1],[2,3,55],[5,22,50]])
+y = np.array([[31,47,6],[91,76,98],[4,8,48]])
+a = np.multiply(x,y)
+b = np.add(x,y)
+c = np.transpose(x)
+d = np.transpose(y)
+print("Multiplication of two matrices")
+print(a)
+print("Addition of two matrices")
+print(b)
+print("Transpose of two matrices")
+print(c)
+print(d)
