@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 x = np.array([[120,3,1],[2,3,55],[5,22,50]])
 y = np.array([[31,47,6],[91,76,98],[4,8,48]])
 mul = np.multiply(x,y)
