@@ -1,7 +1,7 @@
 list_student = [19,27,62,24,21,2,51]
 print("Insertion sort")
 
-for i in range(j, len(list_student)):
+for i in range(len(list_student)):
     
     value = list_student[i]
     
@@ -9,7 +9,7 @@ for i in range(j, len(list_student)):
     
     while j >= 0 and value < list_student[j]:
         
-        list_student_rolls[j+1] = list_student[j]
+        list_student[j+1] = list_student[j]
         j -= 1
         
     list_student[j+1] = value
